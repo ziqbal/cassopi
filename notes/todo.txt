@@ -1,0 +1,6 @@
+
+
+run.sh should return to starting directory not APP directory
+
+have log file
+- when script gets run by cron etc
