@@ -1,17 +1,14 @@
 #!/bin/bash
 
-CWD="$(pwd)"
+echo "FIX"
+exit
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR/..
 APP=${PWD##*/}     
 
 ############################################################
 
-#export DISPLAY=:0.0
-
-#flock -xn f.lock -c "python src/program.py" &
-flock -xn f.lock -c "python src/program.py" &
-
-pwd
-
-cd $CWD
+cd ..
+tar zxvf paparazzi.tar.gz
+rm paparazzi.tar.gz

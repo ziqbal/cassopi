@@ -7,11 +7,4 @@ APP=${PWD##*/}
 
 ############################################################
 
-#export DISPLAY=:0.0
-
-#flock -xn f.lock -c "python src/program.py" &
-flock -xn f.lock -c "python src/program.py" &
-
-pwd
-
-cd $CWD
+sudo ./scripts/run.sh
