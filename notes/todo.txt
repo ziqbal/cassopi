@@ -1,6 +1,10 @@
 
 
 
+title of painting?
+button to show different parts of image etc.
+console transfer
+
 have log file
 - when script gets run by cron etc
 
